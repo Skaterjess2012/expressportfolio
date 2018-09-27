@@ -22,7 +22,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true}));
-app.use(express.static(path.join(__dirname, 'src/public')));
+// app.use(express.static(path.join(__dirname, 'src/public'))); //use if you have a static site (which i dont atm)
 app.set('view engine', 'pug');
 
 app.get('name/of/request', (req, res) => {});
