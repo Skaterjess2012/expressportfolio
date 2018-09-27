@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "watch": true,
         "outDir": "src/public/scripts",
         "target": "es5"
     },

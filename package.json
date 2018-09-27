@@ -1,7 +1,7 @@
 {
   "name": "expressportfolio",
   "version": "1.0.0",
-  "description": "portfolio for me",
+  "description": "portfolio to list all of my skills and projects",
   "main": "server.js",
   "scripts": {
     "test": "jasmine-ts",

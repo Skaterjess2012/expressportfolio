@@ -1,1 +1,1 @@
-WIP pls dont judge; working on implementing a mongo
+WIP pls dont judge; i made this in one afternoon. Hopefully will be done by the end of the weekend :P
