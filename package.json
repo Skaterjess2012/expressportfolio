@@ -4,8 +4,8 @@
   "description": "portfolio for me",
   "main": "server.js",
   "scripts": {
-    "test": "jasmine",
-    "start": "node server.js"
+    "test": "jasmine-ts",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,11 @@
     "typescript": "^3.0.3"
   },
   "devDependencies": {
-    "jasmine": "^3.2.0",
+    "eslint": "^5.6.0",
+    "jasmine-ts": "^0.2.1",
+    "nodemon": "^1.18.4",
     "pug": "^2.0.3",
-    "sass": "^1.14.1"
+    "sass": "^1.14.1",
+    "tslint": "^5.11.0"
   }
 }
