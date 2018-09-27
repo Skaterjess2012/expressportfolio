@@ -17,13 +17,16 @@
 // const user = mongoose.model('userCollection', userSchema);
 
 const express = require('express');
+const path = require('path');
 const app = express();
 const port = process.env.PORT || 8080;
+
 app.use(express.urlencoded({ extended: true}));
 app.use(express.static(path.join(__dirname, 'src/public')));
 app.set('view engine', 'pug');
 
 app.get('name/of/request', (req, res) => {});
+
 app.post('name/of/request', (req, res) => {});
 
 app.listen(port, (err) => {
